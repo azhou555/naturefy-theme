@@ -14,7 +14,7 @@
     "dropdown.background": "#242832",
     "dropdown.border": "#5d6b73",
     "dropdown.foreground": "#a7c080",
-    "editor.background": "#1e2128",
+    "editor.background": "#00002c",
     "editor.foreground": "#ffffff",
     "editorCursor.foreground": "#89b482",
     "editorGroup.border": "#4a5568",
@@ -93,55 +93,55 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#7fbbb3"
+        "foreground": "#ffffff"
       }
     },
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#89b482"
+        "foreground": "#c299a3"
       }
     },
     {
       "scope": "constant.language",
       "settings": {
-        "foreground": "#89b482"
+        "foreground": "#8a5a8a"
       }
     },
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#8da1a8"
+        "foreground": "#b88db8"
       }
     },
     {
       "scope": "storage.type",
       "settings": {
-        "foreground": "#8da1a8"
+        "foreground": "#6b4d6b"
       }
     },
     {
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#8da1a8"
+        "foreground": "#ffffff"
       }
     },
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#a7c080"
+        "foreground": "#d9b3d9"
       }
     },
     {
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "#89b482"
+        "foreground": "#a67aa6"
       }
     },
     {
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#89b482"
+        "foreground": "#ccb3cc"
       }
     },
     {
@@ -153,33 +153,33 @@
     {
       "scope": "support.function",
       "settings": {
-        "foreground": "#7fbbb3"
+        "foreground": "#804080"
       }
     },
     {
       "scope": "support.class",
       "settings": {
-        "foreground": "#89b482"
+        "foreground": "#f0f0f0"
       }
     },
     {
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#a7c080",
+        "foreground": "#ffffff",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "markup.bold",
       "settings": {
-        "foreground": "#89b482",
+        "foreground": "#b366b3",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "markup.italic",
       "settings": {
-        "foreground": "#d699b6",
+        "foreground": "#f5f5f5",
         "fontStyle": "italic"
       }
     }

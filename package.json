@@ -2,8 +2,8 @@
   "name": "naturefy-themes",
   "displayName": "Naturefy Themes",
   "description": "Beautiful dark themes: Jellyfish (deep sea vibes) and Botany (nature-inspired)",
-  "version": "1.0.0",
-  "publisher": "your-publisher-name",
+  "version": "1.0.2",
+  "publisher": "sserafy",
   "engines": {
     "vscode": "^1.74.0"
   },

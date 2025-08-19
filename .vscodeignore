@@ -1,0 +1,6 @@
+.gitignore
+LICENSE.md
+.claude
+.vscodeignore
+.vscode/
+/*.vsix
