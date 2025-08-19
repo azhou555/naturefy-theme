@@ -1,21 +1,31 @@
 # Naturefy Themes
 
-Beautiful dark themes for VSCode inspired by nature.
+Two stunning dark themes for VSCode that bring the beauty of nature to your coding environment.
 
 ## Themes
 
 ### 🪼 Jellyfish
-A deep sea inspired theme with dark blue-black backgrounds and vibrant accents in pink, purple, teal, and mint. Features soft pink terminal text for a dreamy underwater experience.
+Dive into the deep sea with this mesmerizing theme featuring:
+- Deep blue-black backgrounds that evoke ocean depths
+- Bright, contrasting colors: soft greens, light yellows, blues, whites, and soft pinks
+- Optimized syntax highlighting with excellent readability
+- Dreamy pink terminal text for an immersive underwater coding experience
 
 ### 🌿 Botany  
-A nature-inspired dark theme with dull space grey backgrounds and earthy tones of olive greens, forest greens, mint, and touches of lilac. Features mint-green terminal text for a fresh botanical feel.
+Experience the tranquility of nature with this earthy theme featuring:
+- Rich, dark backgrounds for comfortable long coding sessions
+- Carefully balanced palette of whites, dull pinks, and dark magentas
+- Nature-inspired color harmony that's easy on the eyes
+- Fresh green terminal text that brings botanical serenity to your workflow
 
 ## Installation
 
-Will be available on marketplace soon if not already there. 
+Available on the VSCode Marketplace! Search for "Naturefy Themes" or install directly.
 
 ## Features
 
-- Complete editor theming (syntax highlighting, UI elements, panels)
-- Custom terminal color schemes
-- Dark themes suitable for long coding sessions
+- **Complete theming**: Syntax highlighting, UI elements, panels, and terminal colors
+- **High contrast**: Carefully chosen colors ensure no similar tones appear together
+- **Eye comfort**: Optimized for long coding sessions with reduced eye strain
+- **Git integration**: Custom colors for modified, deleted, and untracked files
+- **Error highlighting**: Clear visual indicators for warnings and errors
