@@ -1,0 +1,40 @@
+{
+  "name": "naturefy-themes",
+  "displayName": "Naturefy Themes",
+  "description": "Beautiful dark themes: Jellyfish (deep sea vibes) and Botany (nature-inspired)",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jellyfish",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jellyfish-color-theme.json"
+      },
+      {
+        "label": "Botany",
+        "uiTheme": "vs-dark", 
+        "path": "./themes/botany-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "jellyfish",
+    "botany",
+    "nature",
+    "deep sea"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
