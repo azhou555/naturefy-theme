@@ -2,19 +2,28 @@
   "name": "Botany",
   "type": "dark",
   "colors": {
+    
+    /***** ACTIVITY BAR & BADGES ***/
+    /*** Left sidebar with icons and notification badges",
     "activityBar.background": "#1a1d26",
     "activityBar.foreground": "#a7c080",
     "activityBarBadge.background": "#89b482",
     "activityBarBadge.foreground": "#2a2d36",
     "badge.background": "#89b482",
     "badge.foreground": "#2a2d36",
+    
+    /******* BUTTONS & CONTROLS *****/
+    /*** Interactive elements like buttons and dropdowns",
     "button.background": "#7fbbb3",
     "button.foreground": "#2a2d36",
     "button.hoverBackground": "#95d2c7",
     "dropdown.background": "#242832",
     "dropdown.border": "#5d6b73",
     "dropdown.foreground": "#a7c080",
-    "editor.background": "#00002c",
+    
+    /****  EDITOR AREA  ****/
+    /*** Main code editing area and cursor",
+    "editor.background": "#1e2128",
     "editor.foreground": "#ffffff",
     "editorCursor.foreground": "#89b482",
     "editorGroup.border": "#4a5568",
@@ -23,28 +32,36 @@
     "editorLineNumber.foreground": "#5d6b73",
     "editorLineNumber.activeForeground": "#a7c080",
     "editorWhitespace.foreground": "#4a5568",
+    
+    /****  INPUTS & FOCUS  ****/
+    /*** Input fields, search boxes, and focus indicators",
     "focusBorder": "#7fbbb3",
     "foreground": "#ffffff",
     "input.background": "#242832",
     "input.border": "#5d6b73",
     "input.foreground": "#a7c080",
     "inputOption.activeBorder": "#7fbbb3",
+    
+    /****  LISTS & SELECTIONS  ****/
+    /*** File explorer, search results, command palette",
     "list.activeSelectionBackground": "#4a5568",
     "list.activeSelectionForeground": "#89b482",
     "list.hoverBackground": "#242832",
     "list.inactiveSelectionBackground": "#242832",
+    
+    /****  PANELS & SIDEBAR  ****/
+    /*** Bottom panels, file explorer, extensions view",
     "panel.background": "#1a1d26",
     "panel.border": "#4a5568",
     "panelTitle.activeForeground": "#a7c080",
     "panelTitle.inactiveForeground": "#859289",
-    "progressBar.background": "#7fbbb3",
-    "scrollbar.shadow": "#1c1f26",
-    "scrollbarSlider.background": "#4a556880",
-    "scrollbarSlider.hoverBackground": "#5d6b73",
     "sideBar.background": "#1a1d26",
     "sideBar.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#242832",
     "sideBarSectionHeader.foreground": "#a7c080",
+    
+    /****  STATUS BAR & TABS  ****/
+    /*** Bottom status bar and editor tabs",
     "statusBar.background": "#1a1d26",
     "statusBar.foreground": "#7fbbb3",
     "statusBarItem.hoverBackground": "#242832",
@@ -53,10 +70,23 @@
     "tab.border": "#4a5568",
     "tab.inactiveBackground": "#1a1d26",
     "tab.inactiveForeground": "#859289",
+    
+    /****  TITLE BAR & PROGRESS  ****/
+    /*** Window title bar and progress indicators",
     "titleBar.activeBackground": "#1a1d26",
     "titleBar.activeForeground": "#ffffff",
     "titleBar.inactiveBackground": "#1a1d26",
     "titleBar.inactiveForeground": "#859289",
+    "progressBar.background": "#7fbbb3",
+    
+    /****  SCROLLBARS  ****/
+    /*** Scrollbar styling and shadows",
+    "scrollbar.shadow": "#1c1f26",
+    "scrollbarSlider.background": "#4a556880",
+    "scrollbarSlider.hoverBackground": "#5d6b73",
+    
+    /****  TERMINAL COLORS  ****/
+    /*** Integrated terminal background, text, and ANSI colors",
     "terminal.background": "#1e2128",
     "terminal.foreground": "#89b482",
     "terminal.ansiBlack": "#4a5568",
@@ -75,15 +105,27 @@
     "terminal.ansiBrightMagenta": "#e0adca",
     "terminal.ansiBrightCyan": "#95c9c2",
     "terminal.ansiBrightWhite": "#a3c496",
+    
+    /****  GIT INTEGRATION  ****/
+    /*** Git status colors for file explorer and tabs",
     "gitDecoration.modifiedResourceForeground": "#c9a554",
     "gitDecoration.deletedResourceForeground": "#b85450",
     "gitDecoration.untrackedResourceForeground": "#7a8471",
     "gitDecoration.conflictingResourceForeground": "#d699b6",
+    
+    /****  ERROR & WARNING INDICATORS  ****/
+    /*** Squiggly underlines and problem indicators",
     "editorError.foreground": "#b85450",
     "editorWarning.foreground": "#c9a554"
   },
+  
+  /**** =============================================== ****/
+  /*** SYNTAX HIGHLIGHTING - Code token colors and styles",
+  /**** =============================================== ****/
+  
   "tokenColors": [
     {
+      /****  COMMENTS  ****/
       "scope": "comment",
       "settings": {
         "foreground": "#859289",
@@ -91,6 +133,7 @@
       }
     },
     {
+      /****  STRINGS & LITERALS  ****/
       "scope": "string",
       "settings": {
         "foreground": "#ffffff"
@@ -109,6 +152,7 @@
       }
     },
     {
+      /****  KEYWORDS & MODIFIERS  ****/
       "scope": "keyword",
       "settings": {
         "foreground": "#b88db8"
@@ -127,6 +171,7 @@
       }
     },
     {
+      /****  FUNCTIONS & CLASSES  ****/
       "scope": "entity.name.function",
       "settings": {
         "foreground": "#d9b3d9"
@@ -145,6 +190,7 @@
       }
     },
     {
+      /****  VARIABLES & SUPPORT  ****/
       "scope": "variable",
       "settings": {
         "foreground": "#ffffff"
@@ -163,6 +209,7 @@
       }
     },
     {
+      /****  MARKUP (Markdown, HTML)  ****/
       "scope": "markup.heading",
       "settings": {
         "foreground": "#ffffff",

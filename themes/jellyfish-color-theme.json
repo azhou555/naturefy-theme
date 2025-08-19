@@ -2,18 +2,27 @@
   "name": "Jellyfish",
   "type": "dark",
   "colors": {
+    
+    /****  ACTIVITY BAR & BADGES  ****/
+    /*** Left sidebar with icons and notification badges ***/
     "activityBar.background": "#0a0d1a",
     "activityBar.foreground": "#ff99ff",
     "activityBarBadge.background": "#ff66b3",
     "activityBarBadge.foreground": "#0a0d1a",
     "badge.background": "#ff66b3",
     "badge.foreground": "#0a0d1a",
+    
+    /****  BUTTONS & CONTROLS  ****/
+    /*** Interactive elements like buttons and dropdowns ***/
     "button.background": "#80ffee",
     "button.foreground": "#0a0d1a",
     "button.hoverBackground": "#99fff2",
     "dropdown.background": "#1a1f2e",
     "dropdown.border": "#4a5568",
     "dropdown.foreground": "#ff99ff",
+    
+    /****  EDITOR AREA  ****/
+    /*** Main code editing area and cursor ***/
     "editor.background": "#0f1419",
     "editor.foreground": "#c2a5f0",
     "editorCursor.foreground": "#ff66b3",
@@ -23,28 +32,36 @@
     "editorLineNumber.foreground": "#4a5568",
     "editorLineNumber.activeForeground": "#ff99ff",
     "editorWhitespace.foreground": "#2d3748",
+    
+    /****  INPUTS & FOCUS  ****/
+    /*** Input fields, search boxes, and focus indicators ***/
     "focusBorder": "#80ffee",
     "foreground": "#ffffff",
     "input.background": "#1a1f2e",
     "input.border": "#4a5568",
     "input.foreground": "#ff99ff",
     "inputOption.activeBorder": "#80ffee",
+    
+    /****  LISTS & SELECTIONS  ****/
+    /*** File explorer, search results, command palette ***/
     "list.activeSelectionBackground": "#2d3748",
     "list.activeSelectionForeground": "#ff66b3",
     "list.hoverBackground": "#1a1f2e",
     "list.inactiveSelectionBackground": "#1a1f2e",
+    
+    /****  PANELS & SIDEBAR  ****/
+    /*** Bottom panels, file explorer, extensions view ***/
     "panel.background": "#0a0d1a",
     "panel.border": "#2d3748",
     "panelTitle.activeForeground": "#ff99ff",
     "panelTitle.inactiveForeground": "#718096",
-    "progressBar.background": "#80ffee",
-    "scrollbar.shadow": "#000000",
-    "scrollbarSlider.background": "#2d374880",
-    "scrollbarSlider.hoverBackground": "#4a5568",
     "sideBar.background": "#0a0d1a",
     "sideBar.foreground": "#c2a5f0",
     "sideBarSectionHeader.background": "#1a1f2e",
     "sideBarSectionHeader.foreground": "#ff99ff",
+    
+    /****  STATUS BAR & TABS  ****/
+    /*** Bottom status bar and editor tabs ***/
     "statusBar.background": "#0a0d1a",
     "statusBar.foreground": "#80ffee",
     "statusBarItem.hoverBackground": "#1a1f2e",
@@ -53,10 +70,23 @@
     "tab.border": "#2d3748",
     "tab.inactiveBackground": "#0a0d1a",
     "tab.inactiveForeground": "#718096",
+    
+    /****  TITLE BAR & PROGRESS  ****/
+    /*** Window title bar and progress indicators",
     "titleBar.activeBackground": "#0a0d1a",
     "titleBar.activeForeground": "#c2a5f0",
     "titleBar.inactiveBackground": "#0a0d1a",
     "titleBar.inactiveForeground": "#718096",
+    "progressBar.background": "#80ffee",
+    
+    /****  SCROLLBARS  ****/
+    /*** Scrollbar styling and shadows ***/
+    "scrollbar.shadow": "#000000",
+    "scrollbarSlider.background": "#2d374880",
+    "scrollbarSlider.hoverBackground": "#4a5568",
+    
+    /****  TERMINAL COLORS  ****/
+    /**** Integrated terminal background, text, and ANSI colors ***/
     "terminal.background": "#0f1419",
     "terminal.foreground": "#ff99dd",
     "terminal.ansiBlack": "#2d3748",
@@ -75,31 +105,44 @@
     "terminal.ansiBrightMagenta": "#ff80cc",
     "terminal.ansiBrightCyan": "#b3fff7",
     "terminal.ansiBrightWhite": "#ffccee",
+    
+    /****  GIT INTEGRATION  ****/
+    /**** Git status colors for file explorer and tabs ****/
     "gitDecoration.modifiedResourceForeground": "#ffff80",
     "gitDecoration.deletedResourceForeground": "#ff6699",
     "gitDecoration.untrackedResourceForeground": "#ff99ff",
     "gitDecoration.conflictingResourceForeground": "#ffb366",
+    
+    /****  ERROR & WARNING INDICATORS  ****/
+    /*** Squiggly underlines and problem indicators ****/
     "editorError.foreground": "#ff6699",
     "editorWarning.foreground": "#ffff80"
   },
+  
+  /**** =============================================== ****/
+  /*** SYNTAX HIGHLIGHTING - Code token colors and styles",
+  /**** =============================================== ****/
+  
   "tokenColors": [
     {
+      /****  COMMENTS  ****/
       "scope": "comment",
       "settings": {
-        "foreground": "#718096",
+        "foreground": "#84b1f5",
         "fontStyle": "italic"
       }
     },
     {
+      /****  STRINGS & LITERALS  ****/
       "scope": "string",
       "settings": {
-        "foreground": "#a8ffb8"
+        "foreground": "#d1f6d7"
       }
     },
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ffff99"
+        "foreground": "#e8e8ae"
       }
     },
     {
@@ -109,6 +152,7 @@
       }
     },
     {
+      /****  KEYWORDS & MODIFIERS  ****/
       "scope": "keyword",
       "settings": {
         "foreground": "#99ccff"
@@ -127,6 +171,7 @@
       }
     },
     {
+      /****  FUNCTIONS & CLASSES  ****/
       "scope": "entity.name.function",
       "settings": {
         "foreground": "#ffffcc"
@@ -145,6 +190,7 @@
       }
     },
     {
+      /****  VARIABLES & SUPPORT  ****/
       "scope": "variable",
       "settings": {
         "foreground": "#ffffff"
@@ -163,6 +209,7 @@
       }
     },
     {
+      /****  MARKUP (Markdown, HTML)  ****/
       "scope": "markup.heading",
       "settings": {
         "foreground": "#ff99ff",
@@ -184,6 +231,7 @@
       }
     },
     {
+      /****  IMPORTS & HTML TAGS  ****/
       "scope": "meta.import, meta.export",
       "settings": {
         "foreground": "#b3e6ff"

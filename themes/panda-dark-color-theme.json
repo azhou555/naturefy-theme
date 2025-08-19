@@ -1,0 +1,253 @@
+{
+  "name": "Panda Dark",
+  "type": "dark",
+  "colors": {
+    
+    /****  ACTIVITY BAR & BADGES  ****/
+    /*** Left sidebar with icons and notification badges",
+    "activityBar.background": "#1a1a1a",
+    "activityBar.foreground": "#7db46c",
+    "activityBarBadge.background": "#8fbc8f",
+    "activityBarBadge.foreground": "#000000",
+    "badge.background": "#8fbc8f",
+    "badge.foreground": "#000000",
+    
+    /****  BUTTONS & CONTROLS  ****/
+    /*** Interactive elements like buttons and dropdowns",
+    "button.background": "#6b8e23",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#7db46c",
+    "dropdown.background": "#2d2d2d",
+    "dropdown.border": "#4a4a4a",
+    "dropdown.foreground": "#ffffff",
+    
+    /****  EDITOR AREA  ****/
+    /*** Main code editing area and cursor",
+    "editor.background": "#0d0d0d",
+    "editor.foreground": "#f5f5f5",
+    "editorCursor.foreground": "#7db46c",
+    "editorGroup.border": "#3a3a3a",
+    "editorGroupHeader.tabsBackground": "#1a1a1a",
+    "editorIndentGuide.background1": "#333333",
+    "editorLineNumber.foreground": "#666666",
+    "editorLineNumber.activeForeground": "#8fbc8f",
+    "editorWhitespace.foreground": "#333333",
+    
+    /****  INPUTS & FOCUS  ****/
+    /*** Input fields, search boxes, and focus indicators",
+    "focusBorder": "#7db46c",
+    "foreground": "#f5f5f5",
+    "input.background": "#2d2d2d",
+    "input.border": "#4a4a4a",
+    "input.foreground": "#ffffff",
+    "inputOption.activeBorder": "#7db46c",
+    
+    /****  LISTS & SELECTIONS  ****/
+    /*** File explorer, search results, command palette",
+    "list.activeSelectionBackground": "#3a3a3a",
+    "list.activeSelectionForeground": "#8fbc8f",
+    "list.hoverBackground": "#2d2d2d",
+    "list.inactiveSelectionBackground": "#2d2d2d",
+    
+    /****  PANELS & SIDEBAR  ****/
+    /*** Bottom panels, file explorer, extensions view",
+    "panel.background": "#1a1a1a",
+    "panel.border": "#3a3a3a",
+    "panelTitle.activeForeground": "#7db46c",
+    "panelTitle.inactiveForeground": "#999999",
+    "sideBar.background": "#1a1a1a",
+    "sideBar.foreground": "#f5f5f5",
+    "sideBarSectionHeader.background": "#2d2d2d",
+    "sideBarSectionHeader.foreground": "#8fbc8f",
+    
+    /****  STATUS BAR & TABS  ****/
+    /*** Bottom status bar and editor tabs",
+    "statusBar.background": "#1a1a1a",
+    "statusBar.foreground": "#7db46c",
+    "statusBarItem.hoverBackground": "#2d2d2d",
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#ffffff",
+    "tab.border": "#3a3a3a",
+    "tab.inactiveBackground": "#1a1a1a",
+    "tab.inactiveForeground": "#999999",
+    
+    /****  TITLE BAR & PROGRESS  ****/
+    /*** Window title bar and progress indicators",
+    "titleBar.activeBackground": "#1a1a1a",
+    "titleBar.activeForeground": "#f5f5f5",
+    "titleBar.inactiveBackground": "#1a1a1a",
+    "titleBar.inactiveForeground": "#999999",
+    "progressBar.background": "#7db46c",
+    
+    /****  SCROLLBARS  ****/
+    /*** Scrollbar styling and shadows",
+    "scrollbar.shadow": "#000000",
+    "scrollbarSlider.background": "#3a3a3a80",
+    "scrollbarSlider.hoverBackground": "#4a4a4a",
+    
+    /****  TERMINAL COLORS  ****/
+    /*** Integrated terminal background, text, and ANSI colors",
+    "terminal.background": "#0d0d0d",
+    "terminal.foreground": "#e6e6e6",
+    "terminal.ansiBlack": "#2d2d2d",
+    "terminal.ansiRed": "#d2691e",
+    "terminal.ansiGreen": "#7db46c",
+    "terminal.ansiYellow": "#daa520",
+    "terminal.ansiBlue": "#8fbc8f",
+    "terminal.ansiMagenta": "#cd853f",
+    "terminal.ansiCyan": "#90ee90",
+    "terminal.ansiWhite": "#e6e6e6",
+    "terminal.ansiBrightBlack": "#4a4a4a",
+    "terminal.ansiBrightRed": "#ff7f50",
+    "terminal.ansiBrightGreen": "#98fb98",
+    "terminal.ansiBrightYellow": "#f0e68c",
+    "terminal.ansiBrightBlue": "#afeeee",
+    "terminal.ansiBrightMagenta": "#deb887",
+    "terminal.ansiBrightCyan": "#e0ffff",
+    "terminal.ansiBrightWhite": "#ffffff",
+    
+    /****  GIT INTEGRATION  ****/
+    /*** Git status colors for file explorer and tabs",
+    "gitDecoration.modifiedResourceForeground": "#daa520",
+    "gitDecoration.deletedResourceForeground": "#d2691e",
+    "gitDecoration.untrackedResourceForeground": "#90ee90",
+    "gitDecoration.conflictingResourceForeground": "#cd853f",
+    
+    /****  ERROR & WARNING INDICATORS  ****/
+    /*** Squiggly underlines and problem indicators",
+    "editorError.foreground": "#d2691e",
+    "editorWarning.foreground": "#daa520"
+  },
+  
+  /**** =============================================== ****/
+  /*** SYNTAX HIGHLIGHTING - Code token colors and styles",
+  /**** =============================================== ****/
+  
+  "tokenColors": [
+    {
+      /****  COMMENTS  ****/
+      "scope": "comment",
+      "settings": {
+        "foreground": "#666666",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      /****  STRINGS & LITERALS  ****/
+      "scope": "string",
+      "settings": {
+        "foreground": "#90ee90"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#daa520"
+      }
+    },
+    {
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      /****  KEYWORDS & MODIFIERS  ****/
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#8fbc8f"
+      }
+    },
+    {
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#6b8e23"
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#cd853f"
+      }
+    },
+    {
+      /****  FUNCTIONS & CLASSES  ****/
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#7db46c"
+      }
+    },
+    {
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#f5f5f5"
+      }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#8fbc8f"
+      }
+    },
+    {
+      /****  VARIABLES & SUPPORT  ****/
+      "scope": "variable",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#90ee90"
+      }
+    },
+    {
+      "scope": "support.class",
+      "settings": {
+        "foreground": "#deb887"
+      }
+    },
+    {
+      /****  MARKUP (Markdown, HTML)  ****/
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#7db46c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#deb887",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      /****  IMPORTS & HTML TAGS  ****/
+      "scope": "meta.import, meta.export",
+      "settings": {
+        "foreground": "#cd853f"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "#8fbc8f"
+      }
+    },
+    {
+      "scope": "meta.tag, entity.name.tag",
+      "settings": {
+        "foreground": "#7db46c"
+      }
+    }
+  ]
+}
