@@ -9,7 +9,8 @@ Dive into the deep sea with this mesmerizing dark theme featuring:
 - Deep blue-black backgrounds that evoke ocean depths
 - Bright, contrasting colors: soft greens, light yellows, blues, whites, and soft pinks
 - Optimized syntax highlighting with excellent readability
-- Dreamy pink terminal text for an immersive underwater coding experience
+- Dreamy pink terminal text for an immersive and ethereal underwater coding experience
+- Recommended for coders who enjoy a pop of color
 
 ### 🌿 Botany  
 Experience the tranquility of nature with this earthy dark theme featuring:
@@ -17,6 +18,7 @@ Experience the tranquility of nature with this earthy dark theme featuring:
 - Carefully balanced palette of whites, dull pinks, and dark magentas
 - Nature-inspired color harmony that's easy on the eyes
 - Fresh green terminal text that brings botanical serenity to your workflow
+- Soothing, calming, and low-stress
 
 ### 🐼 Panda Dark
 Enter the bamboo forest with this monochromatic dark theme featuring:

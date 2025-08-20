@@ -3,8 +3,8 @@
   "type": "light",
   "colors": {
     
-    /****  ACTIVITY BAR & BADGES  ****/
-    /*** Left sidebar with icons and notification badges ***/
+    "//": "=== ACTIVITY BAR & BADGES ===",
+    "//": "Left sidebar with icons and notification badges",
     "activityBar.background": "#f5f5f5",
     "activityBar.foreground": "#2d5016",
     "activityBarBadge.background": "#6b8e23",
@@ -12,17 +12,17 @@
     "badge.background": "#6b8e23",
     "badge.foreground": "#ffffff",
     
-    /****  BUTTONS & CONTROLS  ****/
-    /*** Interactive elements like buttons and dropdowns ***/
+    "//": "=== BUTTONS & CONTROLS ===",
+    "//": "Interactive elements like buttons and dropdowns",
     "button.background": "#2d5016",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#4a7c23",
-    "dropdown.background": "#ffffff",
+    "dropdown.background": "#777777",
     "dropdown.border": "#cccccc",
     "dropdown.foreground": "#333333",
     
-    /****  EDITOR AREA  ****/
-    /*** Main code editing area and cursor ***/
+    "//": "=== EDITOR AREA ===",
+    "//": "Main code editing area and cursor",
     "editor.background": "#ffffff",
     "editor.foreground": "#333333",
     "editorCursor.foreground": "#2d5016",
@@ -33,60 +33,60 @@
     "editorLineNumber.activeForeground": "#2d5016",
     "editorWhitespace.foreground": "#e8e8e8",
     
-    /****  INPUTS & FOCUS  ****/
-    /*** Input fields, search boxes, and focus indicators ***/
+    "//": "=== INPUTS & FOCUS ===",
+    "//": "Input fields, search boxes, and focus indicators",
     "focusBorder": "#2d5016",
     "foreground": "#333333",
-    "input.background": "#ffffff",
+    "input.background": "#777777",
     "input.border": "#cccccc",
     "input.foreground": "#333333",
     "inputOption.activeBorder": "#2d5016",
     
-    /****  LISTS & SELECTIONS  ****/
-    /*** File explorer, search results, command palette ***/
+    "//": "=== LISTS & SELECTIONS ===",
+    "//": "File explorer, search results, command palette",
     "list.activeSelectionBackground": "#e8f5e8",
     "list.activeSelectionForeground": "#2d5016",
-    "list.hoverBackground": "#f0f0f0",
-    "list.inactiveSelectionBackground": "#f0f0f0",
+    "list.hoverBackground": "#777777",
+    "list.inactiveSelectionBackground": "#777777",
     
-    /****  PANELS & SIDEBAR  ****/
-    /*** Bottom panels, file explorer, extensions view ***/
-    "panel.background": "#f5f5f5",
+    "//": "=== PANELS & SIDEBAR ===",
+    "//": "Bottom panels, file explorer, extensions view",
+    "panel.background": "#888888",
     "panel.border": "#e0e0e0",
     "panelTitle.activeForeground": "#2d5016",
     "panelTitle.inactiveForeground": "#666666",
-    "sideBar.background": "#f5f5f5",
+    "sideBar.background": "#888888",
     "sideBar.foreground": "#333333",
-    "sideBarSectionHeader.background": "#e8f5e8",
+    "sideBarSectionHeader.background": "#777777",
     "sideBarSectionHeader.foreground": "#2d5016",
     
-    /****  STATUS BAR & TABS  ****/
-    /*** Bottom status bar and editor tabs ***/
+    "//": "=== STATUS BAR & TABS ===",
+    "//": "Bottom status bar and editor tabs",
     "statusBar.background": "#f5f5f5",
     "statusBar.foreground": "#2d5016",
-    "statusBarItem.hoverBackground": "#e8f5e8",
+    "statusBarItem.hoverBackground": "#777777",
     "tab.activeBackground": "#ffffff",
     "tab.activeForeground": "#333333",
     "tab.border": "#e0e0e0",
     "tab.inactiveBackground": "#f5f5f5",
     "tab.inactiveForeground": "#666666",
     
-    /****  TITLE BAR & PROGRESS  ****/
-    /*** Window title bar and progress indicators ***/
+    "//": "=== TITLE BAR & PROGRESS ===",
+    "//": "Window title bar and progress indicators",
     "titleBar.activeBackground": "#f5f5f5",
     "titleBar.activeForeground": "#333333",
     "titleBar.inactiveBackground": "#f5f5f5",
     "titleBar.inactiveForeground": "#666666",
     "progressBar.background": "#2d5016",
     
-    /****  SCROLLBARS  ****/
-    /*** Scrollbar styling and shadows ***/
+    "//": "=== SCROLLBARS ===",
+    "//": "Scrollbar styling and shadows",
     "scrollbar.shadow": "#cccccc",
     "scrollbarSlider.background": "#e0e0e080",
     "scrollbarSlider.hoverBackground": "#cccccc",
     
-    /****  TERMINAL COLORS  ****/
-    /*** Integrated terminal background, text, and ANSI colors ***/
+    "//": "=== TERMINAL COLORS ===",
+    "//": "Integrated terminal background, text, and ANSI colors",
     "terminal.background": "#ffffff",
     "terminal.foreground": "#333333",
     "terminal.ansiBlack": "#333333",
@@ -106,26 +106,26 @@
     "terminal.ansiBrightCyan": "#90ee90",
     "terminal.ansiBrightWhite": "#333333",
     
-    /****  GIT INTEGRATION  ****/
-    /*** Git status colors for file explorer and tabs ***/
+    "//": "=== GIT INTEGRATION ===",
+    "//": "Git status colors for file explorer and tabs",
     "gitDecoration.modifiedResourceForeground": "#b8860b",
     "gitDecoration.deletedResourceForeground": "#8b4513",
     "gitDecoration.untrackedResourceForeground": "#4a7c23",
     "gitDecoration.conflictingResourceForeground": "#a0522d",
     
-    /****  ERROR & WARNING INDICATORS  ****/
-    /*** Squiggly underlines and problem indicators ***/
+    "//": "=== ERROR & WARNING INDICATORS ===",
+    "//": "Squiggly underlines and problem indicators",
     "editorError.foreground": "#8b4513",
     "editorWarning.foreground": "#b8860b"
   },
   
-  /**** =============================================== ****/
-  /*** SYNTAX HIGHLIGHTING - Code token colors and styles **/
-  /**** =============================================== ****/
+  "//": "=====================================================",
+  "//": "SYNTAX HIGHLIGHTING - Code token colors and styles",
+  "//": "=====================================================",
   
   "tokenColors": [
     {
-      /****  COMMENTS  ****/
+      "//": "=== COMMENTS ===",
       "scope": "comment",
       "settings": {
         "foreground": "#999999",
@@ -133,7 +133,7 @@
       }
     },
     {
-      /****  STRINGS & LITERALS  ****/
+      "//": "=== STRINGS & LITERALS ===",
       "scope": "string",
       "settings": {
         "foreground": "#4a7c23"
@@ -152,7 +152,7 @@
       }
     },
     {
-      /****  KEYWORDS & MODIFIERS  ****/
+      "//": "=== KEYWORDS & MODIFIERS ===",
       "scope": "keyword",
       "settings": {
         "foreground": "#2d5016"
@@ -171,7 +171,7 @@
       }
     },
     {
-      /****  FUNCTIONS & CLASSES  ****/
+      "//": "=== FUNCTIONS & CLASSES ===",
       "scope": "entity.name.function",
       "settings": {
         "foreground": "#2d5016"
@@ -190,7 +190,7 @@
       }
     },
     {
-      /****  VARIABLES & SUPPORT  ****/
+      "//": "=== VARIABLES & SUPPORT ===",
       "scope": "variable",
       "settings": {
         "foreground": "#333333"
@@ -209,7 +209,7 @@
       }
     },
     {
-      /****  MARKUP (Markdown, HTML)  ****/
+      "//": "=== MARKUP (Markdown, HTML) ===",
       "scope": "markup.heading",
       "settings": {
         "foreground": "#000000",
@@ -231,7 +231,7 @@
       }
     },
     {
-      /****  IMPORTS & HTML TAGS  ****/
+      "//": "=== IMPORTS & HTML TAGS ===",
       "scope": "meta.import, meta.export",
       "settings": {
         "foreground": "#a0522d"

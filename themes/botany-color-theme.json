@@ -4,7 +4,7 @@
   "colors": {
     
     /***** ACTIVITY BAR & BADGES ***/
-    /*** Left sidebar with icons and notification badges",
+    /* Left sidebar with icons and notification badges */
     "activityBar.background": "#1a1d26",
     "activityBar.foreground": "#a7c080",
     "activityBarBadge.background": "#89b482",
@@ -13,7 +13,7 @@
     "badge.foreground": "#2a2d36",
     
     /******* BUTTONS & CONTROLS *****/
-    /*** Interactive elements like buttons and dropdowns",
+    /* Interactive elements like buttons and dropdowns */
     "button.background": "#7fbbb3",
     "button.foreground": "#2a2d36",
     "button.hoverBackground": "#95d2c7",
@@ -22,7 +22,7 @@
     "dropdown.foreground": "#a7c080",
     
     /****  EDITOR AREA  ****/
-    /*** Main code editing area and cursor",
+    /* Main code editing area and cursor */
     "editor.background": "#1e2128",
     "editor.foreground": "#ffffff",
     "editorCursor.foreground": "#89b482",
@@ -34,7 +34,7 @@
     "editorWhitespace.foreground": "#4a5568",
     
     /****  INPUTS & FOCUS  ****/
-    /*** Input fields, search boxes, and focus indicators",
+    /* Input fields, search boxes, and focus indicators */
     "focusBorder": "#7fbbb3",
     "foreground": "#ffffff",
     "input.background": "#242832",
@@ -43,14 +43,14 @@
     "inputOption.activeBorder": "#7fbbb3",
     
     /****  LISTS & SELECTIONS  ****/
-    /*** File explorer, search results, command palette",
+    /* File explorer, search results, command palette */
     "list.activeSelectionBackground": "#4a5568",
     "list.activeSelectionForeground": "#89b482",
     "list.hoverBackground": "#242832",
     "list.inactiveSelectionBackground": "#242832",
     
     /****  PANELS & SIDEBAR  ****/
-    /*** Bottom panels, file explorer, extensions view",
+    /* Bottom panels, file explorer, extensions view */
     "panel.background": "#1a1d26",
     "panel.border": "#4a5568",
     "panelTitle.activeForeground": "#a7c080",
@@ -61,7 +61,7 @@
     "sideBarSectionHeader.foreground": "#a7c080",
     
     /****  STATUS BAR & TABS  ****/
-    /*** Bottom status bar and editor tabs",
+    /* Bottom status bar and editor tabs */
     "statusBar.background": "#1a1d26",
     "statusBar.foreground": "#7fbbb3",
     "statusBarItem.hoverBackground": "#242832",
@@ -72,7 +72,7 @@
     "tab.inactiveForeground": "#859289",
     
     /****  TITLE BAR & PROGRESS  ****/
-    /*** Window title bar and progress indicators",
+    /* Window title bar and progress indicators */
     "titleBar.activeBackground": "#1a1d26",
     "titleBar.activeForeground": "#ffffff",
     "titleBar.inactiveBackground": "#1a1d26",
@@ -80,13 +80,13 @@
     "progressBar.background": "#7fbbb3",
     
     /****  SCROLLBARS  ****/
-    /*** Scrollbar styling and shadows",
+    /* Scrollbar styling and shadows */
     "scrollbar.shadow": "#1c1f26",
     "scrollbarSlider.background": "#4a556880",
     "scrollbarSlider.hoverBackground": "#5d6b73",
     
     /****  TERMINAL COLORS  ****/
-    /*** Integrated terminal background, text, and ANSI colors",
+    /* Integrated terminal background, text, and ANSI colors */
     "terminal.background": "#1e2128",
     "terminal.foreground": "#89b482",
     "terminal.ansiBlack": "#4a5568",
@@ -107,20 +107,20 @@
     "terminal.ansiBrightWhite": "#a3c496",
     
     /****  GIT INTEGRATION  ****/
-    /*** Git status colors for file explorer and tabs",
+    /* Git status colors for file explorer and tabs */
     "gitDecoration.modifiedResourceForeground": "#c9a554",
     "gitDecoration.deletedResourceForeground": "#b85450",
     "gitDecoration.untrackedResourceForeground": "#7a8471",
     "gitDecoration.conflictingResourceForeground": "#d699b6",
     
     /****  ERROR & WARNING INDICATORS  ****/
-    /*** Squiggly underlines and problem indicators",
+    /* Squiggly underlines and problem indicators */
     "editorError.foreground": "#b85450",
     "editorWarning.foreground": "#c9a554"
   },
   
   /**** =============================================== ****/
-  /*** SYNTAX HIGHLIGHTING - Code token colors and styles",
+  /* SYNTAX HIGHLIGHTING - Code token colors and styles */
   /**** =============================================== ****/
   
   "tokenColors": [
