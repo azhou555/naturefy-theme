@@ -20,7 +20,7 @@ Experience the tranquility of nature with this earthy dark theme featuring:
 - Fresh green terminal text that brings botanical serenity to your workflow
 - Soothing, calming, and low-stress
 
-
+```
 ⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⢰⣿⡿⠗⠀⠠⠄⡀⠀⠀⠀⠀
 ⠀⠀⠀⠀⡜⠁⠀⠀⠀⠀⠀⠈⠑⢶⣶⡄
@@ -32,6 +32,7 @@ Experience the tranquility of nature with this earthy dark theme featuring:
 ⠀⠀⠀⣷⣄⡀⠀⠀⠀⢀⣴⡟⠿⠃⠀⠀
 ⠀⠀⠀⢻⣿⣿⠉⠉⢹⣿⣿⠁⠀⠀⠀⠀
 ⠀⠀⠀⠀⠉⠁⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀
+```
 
 (Personal favorites) 
 
