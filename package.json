@@ -1,8 +1,8 @@
 {
   "name": "naturefy-themes",
   "displayName": "Naturefy Themes",
-  "description": "Beautiful themes inspired by nature: Jellyfish (deep sea), Botany (earthy), and Panda (bamboo & woods)",
-  "version": "1.1.3",
+  "description": "Beautiful themes inspired by nature: Jellyfish (deep sea), Botany (earthy), Panda (bamboo & woods), and Orca",
+  "version": "1.1.5",
   "publisher": "sserafy",
   "engines": {
     "vscode": "^1.74.0"
@@ -32,6 +32,11 @@
         "label": "Panda Light",
         "uiTheme": "vs",
         "path": "./themes/panda-light-color-theme.json"
+      },
+      {
+        "label": "Orca",
+        "uiTheme": "vs-dark",
+        "path": "./themes/orca-color-theme.json"
       }
     ]
   },
@@ -42,10 +47,13 @@
     "jellyfish",
     "botany",
     "panda",
+    "orca",
     "nature",
     "deep sea",
     "bamboo",
-    "woods"
+    "woods",
+    "monochrome",
+    "contrast"
   ],
   "repository": {
     "type": "git",
