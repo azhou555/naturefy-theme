@@ -1,0 +1,435 @@
+{
+  "name": "Intergalactic",
+  "type": "dark",
+  "colors": {
+    // Deep Space Foundation
+    "editor.background": "#0B0D14",
+    "editorGroupHeader.tabsBackground": "#111218",
+    "sideBar.background": "#111218",
+    "activityBar.background": "#0B0D14",
+    "panel.background": "#111218",
+    "statusBar.background": "#0B0D14",
+    "titleBar.activeBackground": "#0B0D14",
+    "titleBar.inactiveBackground": "#0B0D14",
+    "terminal.background": "#0B0D14",
+    "debugToolBar.background": "#0B0D14",
+    
+    // UI Panel and Secondary Backgrounds
+    "dropdown.background": "#1A1D26",
+    "input.background": "#1A1D26",
+    "sideBarSectionHeader.background": "#1A1D26",
+    "tab.inactiveBackground": "#111218",
+    "tab.activeBackground": "#0B0D14",
+    "list.hoverBackground": "#1A1D26",
+    "list.inactiveSelectionBackground": "#1A1D26",
+    "list.activeSelectionBackground": "#252935",
+    
+    // Ethereal Accent Colors
+    "activityBar.foreground": "#00E6FF",
+    "statusBar.foreground": "#00E6FF",
+    "tab.activeForeground": "#00E6FF",
+    "sideBarSectionHeader.foreground": "#00E6FF",
+    "panelTitle.activeForeground": "#00E6FF",
+    "titleBar.activeForeground": "#F0F4F8",
+    "editorLineNumber.activeForeground": "#00E6FF",
+    "focusBorder": "#00E6FF",
+    "inputOption.activeBorder": "#00E6FF",
+    
+    // Cosmic Interaction States
+    "button.background": "#00E6FF",
+    "button.foreground": "#0B0D14",
+    "button.hoverBackground": "#4DFFFF",
+    "badge.background": "#FF44DD",
+    "badge.foreground": "#0B0D14",
+    "activityBarBadge.background": "#FF44DD",
+    "activityBarBadge.foreground": "#0B0D14",
+    "progressBar.background": "#00E6FF",
+    
+    // Text and Foreground
+    "editor.foreground": "#F0F4F8",
+    "sideBar.foreground": "#F0F4F8",
+    "foreground": "#F0F4F8",
+    "input.foreground": "#F0F4F8",
+    "dropdown.foreground": "#F0F4F8",
+    "terminal.foreground": "#F0F4F8",
+    "list.activeSelectionForeground": "#FFB347",
+    
+    // Inactive and Muted Elements
+    "tab.inactiveForeground": "#7A8394",
+    "titleBar.inactiveForeground": "#7A8394",
+    "panelTitle.inactiveForeground": "#7A8394",
+    "editorLineNumber.foreground": "#7A8394",
+    "editorWhitespace.foreground": "#252935",
+    "editorIndentGuide.background1": "#252935",
+    "editorIndentGuide.activeBackground1": "#00E6FF",
+    
+    // Borders and Separators
+    "editorGroup.border": "#252935",
+    "panel.border": "#252935",
+    "tab.border": "#252935",
+    "dropdown.border": "#252935",
+    "input.border": "#252935",
+    
+    // Selection and Highlighting
+    "editor.selectionBackground": "#AA88FF40",
+    "editor.selectionHighlightBackground": "#AA88FF25",
+    "editor.findMatchBackground": "#00E6FF60",
+    "editor.findMatchHighlightBackground": "#00E6FF30",
+    "editor.wordHighlightBackground": "#00E6FF20",
+    "editor.wordHighlightStrongBackground": "#00E6FF35",
+    "editorBracketMatch.background": "#FF44DD40",
+    "editorBracketMatch.border": "#FF44DD",
+    
+    // Cursor
+    "editorCursor.foreground": "#FFB347",
+    
+    // Scrollbar
+    "scrollbar.shadow": "#000000",
+    "scrollbarSlider.background": "#25293580",
+    "scrollbarSlider.hoverBackground": "#7A8394",
+    "statusBarItem.hoverBackground": "#1A1D26",
+    
+    // Terminal ANSI Colors (Cosmic Palette)
+    "terminal.ansiBlack": "#0B0D14",
+    "terminal.ansiRed": "#FF6B6B",
+    "terminal.ansiGreen": "#66FF99",
+    "terminal.ansiYellow": "#FFCC33",
+    "terminal.ansiBlue": "#5599FF",
+    "terminal.ansiMagenta": "#FF44DD",
+    "terminal.ansiCyan": "#00E6FF",
+    "terminal.ansiWhite": "#F0F4F8",
+    "terminal.ansiBrightBlack": "#7A8394",
+    "terminal.ansiBrightRed": "#FF8E8E",
+    "terminal.ansiBrightGreen": "#88FFBB",
+    "terminal.ansiBrightYellow": "#FFD966",
+    "terminal.ansiBrightBlue": "#77AAFF",
+    "terminal.ansiBrightMagenta": "#FF77EE",
+    "terminal.ansiBrightCyan": "#4DFFFF",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    
+    // Git Integration
+    "gitDecoration.addedResourceForeground": "#66FF99",
+    "gitDecoration.modifiedResourceForeground": "#FFCC33",
+    "gitDecoration.deletedResourceForeground": "#FF6B6B",
+    "gitDecoration.untrackedResourceForeground": "#00E6FF",
+    "gitDecoration.conflictingResourceForeground": "#FF44DD",
+    "gitDecoration.ignoredResourceForeground": "#7A8394",
+    
+    // Error and Warning States
+    "editorError.foreground": "#FF6B6B",
+    "editorWarning.foreground": "#FFCC33",
+    "editorInfo.foreground": "#00E6FF"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments - Interstellar Dust",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#7A8394",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Strings - Nebula Green",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "#66FF99"
+      }
+    },
+    {
+      "name": "Template String Expressions",
+      "scope": [
+        "meta.template.expression"
+      ],
+      "settings": {
+        "foreground": "#F0F4F8"
+      }
+    },
+    {
+      "name": "Numbers - Golden Stellar Cores",
+      "scope": [
+        "constant.numeric",
+        "constant.character.numeric"
+      ],
+      "settings": {
+        "foreground": "#FFB347"
+      }
+    },
+    {
+      "name": "Built-in Constants - Stellar White",
+      "scope": [
+        "constant.language",
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#F0F4F8"
+      }
+    },
+    {
+      "name": "Keywords - Cosmic Blue",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.other.important"
+      ],
+      "settings": {
+        "foreground": "#5599FF"
+      }
+    },
+    {
+      "name": "Storage Types - Cosmic Magenta",
+      "scope": [
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#FF44DD"
+      }
+    },
+    {
+      "name": "Function Names - Golden Amber",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call.generic",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#FFB347"
+      }
+    },
+    {
+      "name": "Class Names - Solar Orange",
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#FF8C42"
+      }
+    },
+    {
+      "name": "Type Names - Stellar Purple",
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#AA88FF"
+      }
+    },
+    {
+      "name": "Variables - Stellar White",
+      "scope": [
+        "variable",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#F0F4F8"
+      }
+    },
+    {
+      "name": "Object Properties - Electric Turquoise",
+      "scope": [
+        "variable.object.property",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#00E6FF"
+      }
+    },
+    {
+      "name": "Parameters - Cyan Mist",
+      "scope": [
+        "variable.parameter",
+        "meta.parameters"
+      ],
+      "settings": {
+        "foreground": "#4DFFFF"
+      }
+    },
+    {
+      "name": "Import/Export - Electric Turquoise",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.as"
+      ],
+      "settings": {
+        "foreground": "#00E6FF"
+      }
+    },
+    {
+      "name": "Operators - Stellar Purple",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#AA88FF"
+      }
+    },
+    {
+      "name": "Punctuation - Nebula Dark",
+      "scope": [
+        "punctuation",
+        "meta.brace",
+        "meta.bracket",
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#7A8394"
+      }
+    },
+    {
+      "name": "HTML/XML Tags - Electric Turquoise",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#00E6FF"
+      }
+    },
+    {
+      "name": "HTML/XML Attributes - Solar Orange",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#FF8C42"
+      }
+    },
+    {
+      "name": "CSS Properties - Cosmic Magenta",
+      "scope": [
+        "support.type.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#FF44DD"
+      }
+    },
+    {
+      "name": "CSS Values - Nebula Green",
+      "scope": [
+        "support.constant.property-value.css",
+        "constant.other.color.rgb-value.css"
+      ],
+      "settings": {
+        "foreground": "#66FF99"
+      }
+    },
+    {
+      "name": "CSS Selectors - Electric Turquoise",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "foreground": "#00E6FF"
+      }
+    },
+    {
+      "name": "JSON Keys - Solar Orange",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FF8C42"
+      }
+    },
+    {
+      "name": "Markdown Headings - Electric Turquoise",
+      "scope": [
+        "markup.heading",
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#00E6FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Bold - Golden Amber",
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "foreground": "#FFB347",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Italic - Stellar Purple",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#AA88FF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Code - Nebula Green",
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code"
+      ],
+      "settings": {
+        "foreground": "#66FF99"
+      }
+    },
+    {
+      "name": "Markdown Links - Cyan Mist",
+      "scope": [
+        "markup.underline.link"
+      ],
+      "settings": {
+        "foreground": "#4DFFFF"
+      }
+    },
+    {
+      "name": "SQL Keywords - Cosmic Blue",
+      "scope": [
+        "keyword.other.sql"
+      ],
+      "settings": {
+        "foreground": "#5599FF"
+      }
+    },
+    {
+      "name": "Invalid - Error Supernova",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+    {
+      "name": "Deprecated - Warning Solar",
+      "scope": [
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#FFCC33"
+      }
+    }
+  ]
+}

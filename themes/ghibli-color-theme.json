@@ -1,0 +1,325 @@
+{
+  "name": "Ghibli",
+  "type": "light",
+  "colors": {
+    
+    "//": "=== ACTIVITY BAR & BADGES ===",
+    "//": "Left sidebar with icons and notification badges - soft forest theme",
+    "activityBar.background": "#f0f2ed",
+    "activityBar.foreground": "#2d5a3d",
+    "activityBarBadge.background": "#ff7f50",
+    "activityBarBadge.foreground": "#ffffff",
+    "badge.background": "#ff7f50",
+    "badge.foreground": "#ffffff",
+    
+    "//": "=== BUTTONS & CONTROLS ===",
+    "//": "Interactive elements - warm Ghibli accent colors",
+    "button.background": "#5a8a5a",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#7db46c",
+    "dropdown.background": "#faf9f6",
+    "dropdown.border": "#d2d5ce",
+    "dropdown.foreground": "#2f2f2f",
+    
+    "//": "=== EDITOR AREA ===",
+    "//": "Main coding area - clean cream like Ghibli backgrounds",
+    "editor.background": "#fefefe",
+    "editor.foreground": "#2f2f2f",
+    "editorCursor.foreground": "#ff7f50",
+    "editorGroup.border": "#d2d5ce",
+    "editorGroupHeader.tabsBackground": "#f8f9f5",
+    "editorIndentGuide.background1": "#e8ebe5",
+    "editorIndentGuide.activeBackground1": "#a8d8a8",
+    "editorLineNumber.foreground": "#9aaa97",
+    "editorLineNumber.activeForeground": "#2d5a3d",
+    "editorWhitespace.foreground": "#e8ebe5",
+    
+    "//": "=== INPUTS & FOCUS ===",
+    "//": "Search and input fields - gentle focus colors",
+    "focusBorder": "#5a8a5a",
+    "foreground": "#2f2f2f",
+    "input.background": "#faf9f6",
+    "input.border": "#d2d5ce",
+    "input.foreground": "#2f2f2f",
+    "inputOption.activeBorder": "#5a8a5a",
+    
+    "//": "=== LISTS & SELECTIONS ===",
+    "//": "File explorer and selections - soft magical highlights",
+    "list.activeSelectionBackground": "#e6f4e6",
+    "list.activeSelectionForeground": "#2d5a3d",
+    "list.hoverBackground": "#f5f6f2",
+    "list.inactiveSelectionBackground": "#f5f6f2",
+    
+    "//": "=== PANELS & SIDEBAR ===",
+    "//": "Side panels - warm sage green like Ghibli nature",
+    "panel.background": "#faf9f6",
+    "panel.border": "#d2d5ce",
+    "panelTitle.activeForeground": "#2d5a3d",
+    "panelTitle.inactiveForeground": "#8a8a8a",
+    "sideBar.background": "#f8f9f5",
+    "sideBar.foreground": "#2f2f2f",
+    "sideBarSectionHeader.background": "#f0f2ed",
+    "sideBarSectionHeader.foreground": "#2d5a3d",
+    
+    "//": "=== STATUS BAR & TABS ===",
+    "//": "Bottom bar and tabs - cohesive Ghibli palette",
+    "statusBar.background": "#f0f2ed",
+    "statusBar.foreground": "#2d5a3d",
+    "statusBarItem.hoverBackground": "#e8ebe5",
+    "tab.activeBackground": "#fefefe",
+    "tab.activeForeground": "#2f2f2f",
+    "tab.border": "#d2d5ce",
+    "tab.inactiveBackground": "#f8f9f5",
+    "tab.inactiveForeground": "#8a8a8a",
+    
+    "//": "=== TITLE BAR & PROGRESS ===",
+    "//": "Window controls and progress indicators",
+    "titleBar.activeBackground": "#f8f9f5",
+    "titleBar.activeForeground": "#2f2f2f",
+    "titleBar.inactiveBackground": "#f8f9f5",
+    "titleBar.inactiveForeground": "#8a8a8a",
+    "progressBar.background": "#5a8a5a",
+    
+    "//": "=== SCROLLBARS ===",
+    "//": "Gentle scrollbar styling",
+    "scrollbar.shadow": "#d2d5ce",
+    "scrollbarSlider.background": "#d2d5ce80",
+    "scrollbarSlider.hoverBackground": "#c4c7c0",
+    
+    "//": "=== TERMINAL COLORS ===",
+    "//": "Integrated terminal with Ghibli-inspired ANSI colors",
+    "terminal.background": "#fefefe",
+    "terminal.foreground": "#2f2f2f",
+    "terminal.ansiBlack": "#2f2f2f",
+    "terminal.ansiRed": "#dc6c6c",
+    "terminal.ansiGreen": "#5a8a5a",
+    "terminal.ansiYellow": "#d2b48c",
+    "terminal.ansiBlue": "#6fa8dc",
+    "terminal.ansiMagenta": "#b19cd9",
+    "terminal.ansiCyan": "#87ceeb",
+    "terminal.ansiWhite": "#8a8a8a",
+    "terminal.ansiBrightBlack": "#9aaa97",
+    "terminal.ansiBrightRed": "#ff6b6b",
+    "terminal.ansiBrightGreen": "#7db46c",
+    "terminal.ansiBrightYellow": "#f4d03f",
+    "terminal.ansiBrightBlue": "#85c1e9",
+    "terminal.ansiBrightMagenta": "#d5a6dd",
+    "terminal.ansiBrightCyan": "#aed6f1",
+    "terminal.ansiBrightWhite": "#2f2f2f",
+    
+    "//": "=== GIT INTEGRATION ===",
+    "//": "Git status with natural, earthy colors",
+    "gitDecoration.modifiedResourceForeground": "#d2b48c",
+    "gitDecoration.deletedResourceForeground": "#dc6c6c",
+    "gitDecoration.untrackedResourceForeground": "#7db46c",
+    "gitDecoration.conflictingResourceForeground": "#ff7f50",
+    "gitDecoration.addedResourceForeground": "#5a8a5a",
+    "gitDecoration.ignoredResourceForeground": "#9aaa97",
+    
+    "//": "=== ERROR & WARNING INDICATORS ===",
+    "//": "Problem indicators with Ghibli-appropriate colors",
+    "editorError.foreground": "#dc6c6c",
+    "editorWarning.foreground": "#d2b48c",
+    "editorBracketMatch.background": "#e6f4e6",
+    "editorBracketMatch.border": "#5a8a5a",
+    "editor.selectionBackground": "#e6f4e660",
+    "editor.selectionHighlightBackground": "#e6f4e630",
+    "editor.findMatchBackground": "#a8d8a840",
+    "editor.findMatchHighlightBackground": "#a8d8a820",
+    "editor.wordHighlightBackground": "#7db46c20",
+    "editor.wordHighlightStrongBackground": "#7db46c30",
+    "debugToolBar.background": "#f8f9f5",
+    "editorRuler.foreground": "#d2d5ce"
+  },
+  
+  "//": "=====================================================",
+  "//": "SYNTAX HIGHLIGHTING - Ghibli-inspired code colors",
+  "//": "Forest greens, magical blues, warm earth tones",
+  "//": "=====================================================",
+  
+  "tokenColors": [
+    {
+      "//": "=== COMMENTS ===",
+      "//": "Gentle gray-green like whispers in the forest",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#9aaa97",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "//": "=== STRINGS & LITERALS ===",
+      "//": "Meadow green for natural flowing text",
+      "scope": "string",
+      "settings": {
+        "foreground": "#5a8a5a"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#d2b48c"
+      }
+    },
+    {
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#2f2f2f",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "//": "=== KEYWORDS & MODIFIERS ===",
+      "//": "Deep forest green for strong foundational elements",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#2d5a3d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#6fa8dc"
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#8b6f47"
+      }
+    },
+    {
+      "//": "=== FUNCTIONS & CLASSES ===",
+      "//": "Magical blue for special functions like Ghibli magic",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#6fa8dc",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#8b6f47",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#4682b4"
+      }
+    },
+    {
+      "//": "=== VARIABLES & SUPPORT ===",
+      "//": "Natural text color for variables",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#2f2f2f"
+      }
+    },
+    {
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#7db46c"
+      }
+    },
+    {
+      "scope": "support.class",
+      "settings": {
+        "foreground": "#b19cd9"
+      }
+    },
+    {
+      "//": "=== MARKUP (Markdown, HTML) ===",
+      "//": "Cherry blossom and warm colors for markup",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#2d5a3d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#8b6f47",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#dc6c6c",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.underline",
+      "settings": {
+        "foreground": "#6fa8dc",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#9aaa97",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "//": "=== IMPORTS & HTML TAGS ===",
+      "//": "Warm earth tones for structural elements",
+      "scope": "meta.import, meta.export",
+      "settings": {
+        "foreground": "#ff7f50"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "#8b6f47"
+      }
+    },
+    {
+      "scope": "meta.tag, entity.name.tag",
+      "settings": {
+        "foreground": "#2d5a3d"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#6fa8dc"
+      }
+    },
+    {
+      "//": "=== SPECIAL GHIBLI TOUCHES ===",
+      "//": "Additional magical elements for whimsy",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#ffb6c1"
+      }
+    },
+    {
+      "scope": "meta.brace, punctuation.definition.block",
+      "settings": {
+        "foreground": "#87ceeb"
+      }
+    },
+    {
+      "scope": "punctuation.separator, punctuation.terminator",
+      "settings": {
+        "foreground": "#d2b48c"
+      }
+    },
+    {
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#ff7f50",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

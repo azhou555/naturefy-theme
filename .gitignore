@@ -1,2 +1,4 @@
 .claude
 naturefy-themes-*
+*.vsix
+.DS_Store

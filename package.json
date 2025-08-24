@@ -1,11 +1,11 @@
 {
   "name": "naturefy-themes",
   "displayName": "Naturefy Themes",
-  "description": "Beautiful themes inspired by nature: Jellyfish (deep sea), Botany (earthy), Panda (bamboo & woods), and Orca",
-  "version": "1.1.5",
+  "description": "Beautiful themes inspired by nature: Jellyfish (deep sea), Botany (earthy), Panda (bamboo & woods), Orca, Cosmic Sea, Intergalactic (galaxy nebula), Koi Pond (day/night), Tora (tiger), Golden Wave (Ukiyo-e ocean), Ukiyo-e Manuscript (traditional paper), Sunset Beach (day/night), Ghibli (magical Studio Ghibli-inspired), Sakura (cherry blossom twilight), Gothic Vampire (enhanced dark Dracula with blood-red accents), and Cyberpunk (electric neon Tokyo night)",
+  "version": "2.0.2",
   "publisher": "sserafy",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.103.0"
   },
   "categories": [
     "Themes"
@@ -20,7 +20,7 @@
       },
       {
         "label": "Botany",
-        "uiTheme": "vs-dark", 
+        "uiTheme": "vs-dark",
         "path": "./themes/botany-color-theme.json"
       },
       {
@@ -37,6 +37,76 @@
         "label": "Orca",
         "uiTheme": "vs-dark",
         "path": "./themes/orca-color-theme.json"
+      },
+      {
+        "label": "Cosmic Sea",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-sea-color-theme.json"
+      },
+      {
+        "label": "Intergalactic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/intergalactic-color-theme.json"
+      },
+      {
+        "label": "Koi Pond Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/koi-pond-dark-color-theme.json"
+      },
+      {
+        "label": "Koi Pond Light",
+        "uiTheme": "vs",
+        "path": "./themes/koi-pond-light-color-theme.json"
+      },
+      {
+        "label": "Tora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tora-color-theme.json"
+      },
+      {
+        "label": "Golden Wave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/golden-wave-color-theme.json"
+      },
+      {
+        "label": "Sunset Beach Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sunset-beach-dark-color-theme.json"
+      },
+      {
+        "label": "Sunset Beach Light",
+        "uiTheme": "vs",
+        "path": "./themes/sunset-beach-light-color-theme.json"
+      },
+      {
+        "label": "Ukiyo-e",
+        "uiTheme": "vs",
+        "path": "./themes/ukiyo-e-color-theme.json"
+      },
+      {
+        "label": "Ghibli",
+        "uiTheme": "vs",
+        "path": "./themes/ghibli-color-theme.json"
+      },
+      {
+        "label": "Sakura",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sakura-color-theme.json"
+      },
+      {
+        "label": "Vamp",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vamp-color-theme.json"
+      },
+      {
+        "label": "Cyberpunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-color-theme.json"
+      }, 
+      {
+        "label": "Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-color-theme.json"
       }
     ]
   },
@@ -48,12 +118,96 @@
     "botany",
     "panda",
     "orca",
+    "cosmic sea",
+    "intergalactic",
+    "galaxy",
+    "nebula",
+    "space",
+    "cosmic",
+    "koi pond",
+    "koi",
+    "tora",
+    "tiger",
+    "golden wave",
+    "ukiyo-e",
+    "ukiyo-e manuscript",
+    "manuscript",
+    "traditional paper",
+    "hanko",
+    "brush ink",
+    "sunset beach",
+    "tropical",
+    "coral",
     "nature",
     "deep sea",
     "bamboo",
     "woods",
     "monochrome",
-    "contrast"
+    "contrast",
+    "ocean",
+    "cosmic",
+    "japanese",
+    "zen",
+    "pond",
+    "orange",
+    "green",
+    "jungle",
+    "blue",
+    "gold",
+    "wave",
+    "traditional",
+    "beach",
+    "sunset",
+    "turquoise",
+    "peach",
+    "magenta",
+    "cream",
+    "paper",
+    "neutral",
+    "ghibli",
+    "studio ghibli",
+    "magical",
+    "whimsical",
+    "forest",
+    "meadow",
+    "fantasy",
+    "anime",
+    "totoro",
+    "spirited away",
+    "miyazaki",
+    "sakura",
+    "cherry blossom",
+    "cherry",
+    "blossom",
+    "pink",
+    "twilight",
+    "evening",
+    "japanese garden",
+    "gothic",
+    "vampire",
+    "dracula",
+    "blood",
+    "crimson",
+    "burgundy",
+    "dark red",
+    "enhanced dracula",
+    "high contrast",
+    "deep dark",
+    "gothic vampire",
+    "cyberpunk",
+    "neon",
+    "electric",
+    "tokyo",
+    "futuristic",
+    "cyber",
+    "glitch",
+    "synthwave",
+    "retro",
+    "neon lights",
+    "matrix",
+    "digital",
+    "hacker",
+    "circuit"
   ],
   "repository": {
     "type": "git",
