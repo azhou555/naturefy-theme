@@ -7,16 +7,16 @@
     "//": "Left sidebar with icons and notification badges - soft forest theme",
     "activityBar.background": "#f0f2ed",
     "activityBar.foreground": "#2d5a3d",
-    "activityBarBadge.background": "#ff7f50",
+    "activityBarBadge.background": "#ff6b35",
     "activityBarBadge.foreground": "#ffffff",
-    "badge.background": "#ff7f50",
+    "badge.background": "#ff6b35",
     "badge.foreground": "#ffffff",
     
     "//": "=== BUTTONS & CONTROLS ===",
     "//": "Interactive elements - warm Ghibli accent colors",
-    "button.background": "#5a8a5a",
+    "button.background": "#4a7c59",
     "button.foreground": "#ffffff",
-    "button.hoverBackground": "#7db46c",
+    "button.hoverBackground": "#6b9b37",
     "dropdown.background": "#faf9f6",
     "dropdown.border": "#d2d5ce",
     "dropdown.foreground": "#2f2f2f",
@@ -25,7 +25,7 @@
     "//": "Main coding area - clean cream like Ghibli backgrounds",
     "editor.background": "#fefefe",
     "editor.foreground": "#2f2f2f",
-    "editorCursor.foreground": "#ff7f50",
+    "editorCursor.foreground": "#e55100",
     "editorGroup.border": "#d2d5ce",
     "editorGroupHeader.tabsBackground": "#f8f9f5",
     "editorIndentGuide.background1": "#e8ebe5",
@@ -36,12 +36,12 @@
     
     "//": "=== INPUTS & FOCUS ===",
     "//": "Search and input fields - gentle focus colors",
-    "focusBorder": "#5a8a5a",
+    "focusBorder": "#4a7c59",
     "foreground": "#2f2f2f",
     "input.background": "#faf9f6",
     "input.border": "#d2d5ce",
     "input.foreground": "#2f2f2f",
-    "inputOption.activeBorder": "#5a8a5a",
+    "inputOption.activeBorder": "#4a7c59",
     
     "//": "=== LISTS & SELECTIONS ===",
     "//": "File explorer and selections - soft magical highlights",
@@ -78,7 +78,7 @@
     "titleBar.activeForeground": "#2f2f2f",
     "titleBar.inactiveBackground": "#f8f9f5",
     "titleBar.inactiveForeground": "#8a8a8a",
-    "progressBar.background": "#5a8a5a",
+    "progressBar.background": "#4a7c59",
     
     "//": "=== SCROLLBARS ===",
     "//": "Gentle scrollbar styling",
@@ -91,35 +91,35 @@
     "terminal.background": "#fefefe",
     "terminal.foreground": "#2f2f2f",
     "terminal.ansiBlack": "#2f2f2f",
-    "terminal.ansiRed": "#dc6c6c",
-    "terminal.ansiGreen": "#5a8a5a",
-    "terminal.ansiYellow": "#d2b48c",
-    "terminal.ansiBlue": "#6fa8dc",
-    "terminal.ansiMagenta": "#b19cd9",
-    "terminal.ansiCyan": "#87ceeb",
+    "terminal.ansiRed": "#d32f2f",
+    "terminal.ansiGreen": "#4a7c59",
+    "terminal.ansiYellow": "#f57c00",
+    "terminal.ansiBlue": "#1976d2",
+    "terminal.ansiMagenta": "#7b1fa2",
+    "terminal.ansiCyan": "#0097a7",
     "terminal.ansiWhite": "#8a8a8a",
     "terminal.ansiBrightBlack": "#9aaa97",
-    "terminal.ansiBrightRed": "#ff6b6b",
-    "terminal.ansiBrightGreen": "#7db46c",
-    "terminal.ansiBrightYellow": "#f4d03f",
-    "terminal.ansiBrightBlue": "#85c1e9",
-    "terminal.ansiBrightMagenta": "#d5a6dd",
-    "terminal.ansiBrightCyan": "#aed6f1",
+    "terminal.ansiBrightRed": "#ff5722",
+    "terminal.ansiBrightGreen": "#6b9b37",
+    "terminal.ansiBrightYellow": "#ffb300",
+    "terminal.ansiBrightBlue": "#42a5f5",
+    "terminal.ansiBrightMagenta": "#ab47bc",
+    "terminal.ansiBrightCyan": "#26c6da",
     "terminal.ansiBrightWhite": "#2f2f2f",
     
     "//": "=== GIT INTEGRATION ===",
     "//": "Git status with natural, earthy colors",
-    "gitDecoration.modifiedResourceForeground": "#d2b48c",
-    "gitDecoration.deletedResourceForeground": "#dc6c6c",
-    "gitDecoration.untrackedResourceForeground": "#7db46c",
-    "gitDecoration.conflictingResourceForeground": "#ff7f50",
-    "gitDecoration.addedResourceForeground": "#5a8a5a",
+    "gitDecoration.modifiedResourceForeground": "#f57c00",
+    "gitDecoration.deletedResourceForeground": "#d32f2f",
+    "gitDecoration.untrackedResourceForeground": "#6b9b37",
+    "gitDecoration.conflictingResourceForeground": "#ff6b35",
+    "gitDecoration.addedResourceForeground": "#4a7c59",
     "gitDecoration.ignoredResourceForeground": "#9aaa97",
     
     "//": "=== ERROR & WARNING INDICATORS ===",
     "//": "Problem indicators with Ghibli-appropriate colors",
-    "editorError.foreground": "#dc6c6c",
-    "editorWarning.foreground": "#d2b48c",
+    "editorError.foreground": "#d32f2f",
+    "editorWarning.foreground": "#f57c00",
     "editorBracketMatch.background": "#e6f4e6",
     "editorBracketMatch.border": "#5a8a5a",
     "editor.selectionBackground": "#e6f4e660",
@@ -152,13 +152,13 @@
       "//": "Meadow green for natural flowing text",
       "scope": "string",
       "settings": {
-        "foreground": "#5a8a5a"
+        "foreground": "#2e7d32"
       }
     },
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#d2b48c"
+        "foreground": "#f57c00"
       }
     },
     {
@@ -180,13 +180,13 @@
     {
       "scope": "storage.type",
       "settings": {
-        "foreground": "#6fa8dc"
+        "foreground": "#1976d2"
       }
     },
     {
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#8b6f47"
+        "foreground": "#8d6e63"
       }
     },
     {
@@ -194,21 +194,21 @@
       "//": "Magical blue for special functions like Ghibli magic",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#6fa8dc",
+        "foreground": "#1565c0",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "#8b6f47",
+        "foreground": "#8d6e63",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#4682b4"
+        "foreground": "#1976d2"
       }
     },
     {
@@ -222,13 +222,13 @@
     {
       "scope": "support.function",
       "settings": {
-        "foreground": "#7db46c"
+        "foreground": "#388e3c"
       }
     },
     {
       "scope": "support.class",
       "settings": {
-        "foreground": "#b19cd9"
+        "foreground": "#7b1fa2"
       }
     },
     {
@@ -243,21 +243,21 @@
     {
       "scope": "markup.bold",
       "settings": {
-        "foreground": "#8b6f47",
+        "foreground": "#8d6e63",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "markup.italic",
       "settings": {
-        "foreground": "#dc6c6c",
+        "foreground": "#e91e63",
         "fontStyle": "italic"
       }
     },
     {
       "scope": "markup.underline",
       "settings": {
-        "foreground": "#6fa8dc",
+        "foreground": "#1976d2",
         "fontStyle": "underline"
       }
     },
@@ -273,13 +273,13 @@
       "//": "Warm earth tones for structural elements",
       "scope": "meta.import, meta.export",
       "settings": {
-        "foreground": "#ff7f50"
+        "foreground": "#ff6b35"
       }
     },
     {
       "scope": "punctuation.definition.tag",
       "settings": {
-        "foreground": "#8b6f47"
+        "foreground": "#8d6e63"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#6fa8dc"
+        "foreground": "#1976d2"
       }
     },
     {
@@ -299,25 +299,25 @@
       "//": "Additional magical elements for whimsy",
       "scope": "punctuation.definition.string",
       "settings": {
-        "foreground": "#ffb6c1"
+        "foreground": "#f48fb1"
       }
     },
     {
       "scope": "meta.brace, punctuation.definition.block",
       "settings": {
-        "foreground": "#87ceeb"
+        "foreground": "#4fc3f7"
       }
     },
     {
       "scope": "punctuation.separator, punctuation.terminator",
       "settings": {
-        "foreground": "#d2b48c"
+        "foreground": "#f57c00"
       }
     },
     {
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#ff7f50",
+        "foreground": "#ff6b35",
         "fontStyle": "bold"
       }
     }

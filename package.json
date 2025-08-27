@@ -1,8 +1,8 @@
 {
-  "name": "naturefy-themes",
-  "displayName": "Naturefy Themes",
-  "description": "Beautiful themes inspired by nature: Jellyfish (deep sea), Botany (earthy), Panda (bamboo & woods), Orca, Cosmic Sea, Intergalactic (galaxy nebula), Koi Pond (day/night), Tora (tiger), Golden Wave (Ukiyo-e ocean), Ukiyo-e Manuscript (traditional paper), Sunset Beach (day/night), Ghibli (magical Studio Ghibli-inspired), Sakura (cherry blossom twilight), Gothic Vampire (enhanced dark Dracula with blood-red accents), and Cyberpunk (electric neon Tokyo night)",
-  "version": "2.0.2",
+  "name": "ttera-themes",
+  "displayName": "Ttera Themes",
+  "description": "Themes inspired by nature and media aesthetics. Personally curated and designed (with the exception of Dracula).",
+  "version": "2.0.3",
   "publisher": "sserafy",
   "engines": {
     "vscode": "^1.103.0"
@@ -89,6 +89,11 @@
         "path": "./themes/ghibli-color-theme.json"
       },
       {
+        "label": "Ghibli Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ghibli-dark-color-theme.json"
+      },
+      {
         "label": "Sakura",
         "uiTheme": "vs-dark",
         "path": "./themes/sakura-color-theme.json"
@@ -102,11 +107,16 @@
         "label": "Cyberpunk",
         "uiTheme": "vs-dark",
         "path": "./themes/cyberpunk-color-theme.json"
-      }, 
+      },
       {
         "label": "Dracula",
         "uiTheme": "vs-dark",
         "path": "./themes/dracula-color-theme.json"
+      },
+      {
+        "label": "Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dragon-color-theme.json"
       }
     ]
   },
@@ -165,6 +175,7 @@
     "paper",
     "neutral",
     "ghibli",
+    "ghibli dark",
     "studio ghibli",
     "magical",
     "whimsical",
@@ -175,6 +186,10 @@
     "totoro",
     "spirited away",
     "miyazaki",
+    "calcifer",
+    "no-face",
+    "nighttime",
+    "mystical",
     "sakura",
     "cherry blossom",
     "cherry",
@@ -207,10 +222,36 @@
     "matrix",
     "digital",
     "hacker",
-    "circuit"
+    "circuit",
+    "dragon",
+    "chinese",
+    "traditional",
+    "imperial",
+    "regal",
+    "calligraphy",
+    "lotus",
+    "crane",
+    "dynasty",
+    "silk",
+    "scroll",
+    "ink",
+    "bronze",
+    "burgundy",
+    "earth tones",
+    "warm dark",
+    "scholarly",
+    "oriental",
+    "asian",
+    "cultural",
+    "ancient",
+    "dignified",
+    "elegant"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/azhou555/naturefy-theme"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
   }
 }

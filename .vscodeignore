@@ -4,3 +4,7 @@ LICENSE.md
 .vscodeignore
 .vscode/
 /*.vsix
+package-convertor.json
+warp-themes/
+zed-ttera-extensions/
+theme-convertor.js

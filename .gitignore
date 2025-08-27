@@ -2,3 +2,5 @@
 naturefy-themes-*
 *.vsix
 .DS_Store
+warp-themes/
+zed-ttera-extensions/

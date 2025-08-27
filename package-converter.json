@@ -1,0 +1,21 @@
+{
+  "name": "theme-converter",
+  "version": "1.0.0",
+  "description": "Convert VSCode themes to Warp Terminal and Zed Editor formats",
+  "main": "theme-converter.js",
+  "bin": {
+    "theme-converter": "./theme-converter.js"
+  },
+  "scripts": {
+    "test": "node theme-converter.js help"
+  },
+  "keywords": ["vscode", "theme", "warp", "zed", "terminal", "converter"],
+  "author": "Theme Converter",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

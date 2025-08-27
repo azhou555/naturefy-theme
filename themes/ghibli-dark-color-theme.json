@@ -1,0 +1,357 @@
+{
+  "name": "Ghibli Dark",
+  "type": "dark",
+  "colors": {
+    
+    "//": "=== ACTIVITY BAR & BADGES ===",
+    "//": "Mysterious dark forest theme with magical glowing accents",
+    "activityBar.background": "#1a1a1a",
+    "activityBar.foreground": "#7cc142",
+    "activityBarBadge.background": "#ff6b35",
+    "activityBarBadge.foreground": "#ffffff",
+    "badge.background": "#ff6b35",
+    "badge.foreground": "#ffffff",
+    
+    "//": "=== BUTTONS & CONTROLS ===",
+    "//": "Enchanted forest green controls with Calcifer-inspired orange hovers",
+    "button.background": "#4a7c59",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#ff6b35",
+    "dropdown.background": "#2d2d2d",
+    "dropdown.border": "#4a4a4a",
+    "dropdown.foreground": "#e0e0e0",
+    
+    "//": "=== EDITOR AREA ===",
+    "//": "Deep nighttime forest background like Totoro's midnight scenes",
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#e8e8e8",
+    "editorCursor.foreground": "#ff6b35",
+    "editorGroup.border": "#3d3d3d",
+    "editorGroupHeader.tabsBackground": "#252525",
+    "editorIndentGuide.background1": "#3d3d3d",
+    "editorIndentGuide.activeBackground1": "#7cc142",
+    "editorLineNumber.foreground": "#6b6b6b",
+    "editorLineNumber.activeForeground": "#7cc142",
+    "editorWhitespace.foreground": "#3d3d3d",
+    
+    "//": "=== INPUTS & FOCUS ===",
+    "//": "Magical forest green focus with high contrast",
+    "focusBorder": "#7cc142",
+    "foreground": "#e8e8e8",
+    "input.background": "#2d2d2d",
+    "input.border": "#4a4a4a",
+    "input.foreground": "#e8e8e8",
+    "inputOption.activeBorder": "#7cc142",
+    
+    "//": "=== LISTS & SELECTIONS ===",
+    "//": "Mystical purple-blue selections like No-Face's aura",
+    "list.activeSelectionBackground": "#4a4a7a",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#333333",
+    "list.inactiveSelectionBackground": "#353535",
+    
+    "//": "=== PANELS & SIDEBAR ===",
+    "//": "Deep forest panels with subtle magical glow",
+    "panel.background": "#252525",
+    "panel.border": "#3d3d3d",
+    "panelTitle.activeForeground": "#7cc142",
+    "panelTitle.inactiveForeground": "#888888",
+    "sideBar.background": "#252525",
+    "sideBar.foreground": "#e0e0e0",
+    "sideBarSectionHeader.background": "#2d2d2d",
+    "sideBarSectionHeader.foreground": "#7cc142",
+    
+    "//": "=== STATUS BAR & TABS ===",
+    "//": "Consistent dark theme with Ghibli accent colors",
+    "statusBar.background": "#1a1a1a",
+    "statusBar.foreground": "#7cc142",
+    "statusBarItem.hoverBackground": "#333333",
+    "tab.activeBackground": "#1e1e1e",
+    "tab.activeForeground": "#e8e8e8",
+    "tab.border": "#3d3d3d",
+    "tab.inactiveBackground": "#252525",
+    "tab.inactiveForeground": "#888888",
+    
+    "//": "=== TITLE BAR & PROGRESS ===",
+    "//": "Cohesive dark window styling",
+    "titleBar.activeBackground": "#252525",
+    "titleBar.activeForeground": "#e0e0e0",
+    "titleBar.inactiveBackground": "#1a1a1a",
+    "titleBar.inactiveForeground": "#6b6b6b",
+    "progressBar.background": "#7cc142",
+    
+    "//": "=== SCROLLBARS ===",
+    "//": "Subtle dark scrollbar styling",
+    "scrollbar.shadow": "#000000",
+    "scrollbarSlider.background": "#4a4a4a80",
+    "scrollbarSlider.hoverBackground": "#6b6b6b",
+    
+    "//": "=== TERMINAL COLORS ===",
+    "//": "Rich Ghibli-inspired ANSI colors for dark terminal",
+    "terminal.background": "#1e1e1e",
+    "terminal.foreground": "#e8e8e8",
+    "terminal.ansiBlack": "#2d2d2d",
+    "terminal.ansiRed": "#ff5252",
+    "terminal.ansiGreen": "#7cc142",
+    "terminal.ansiYellow": "#ffb300",
+    "terminal.ansiBlue": "#42a5f5",
+    "terminal.ansiMagenta": "#ab47bc",
+    "terminal.ansiCyan": "#26c6da",
+    "terminal.ansiWhite": "#e8e8e8",
+    "terminal.ansiBrightBlack": "#6b6b6b",
+    "terminal.ansiBrightRed": "#ff6b6b",
+    "terminal.ansiBrightGreen": "#81c784",
+    "terminal.ansiBrightYellow": "#ffd54f",
+    "terminal.ansiBrightBlue": "#64b5f6",
+    "terminal.ansiBrightMagenta": "#ba68c8",
+    "terminal.ansiBrightCyan": "#4dd0e1",
+    "terminal.ansiBrightWhite": "#ffffff",
+    
+    "//": "=== GIT INTEGRATION ===",
+    "//": "High contrast git colors for better visibility in dark theme",
+    "gitDecoration.modifiedResourceForeground": "#ffb300",
+    "gitDecoration.deletedResourceForeground": "#ff5252",
+    "gitDecoration.untrackedResourceForeground": "#81c784",
+    "gitDecoration.conflictingResourceForeground": "#ff6b35",
+    "gitDecoration.addedResourceForeground": "#7cc142",
+    "gitDecoration.ignoredResourceForeground": "#6b6b6b",
+    
+    "//": "=== ERROR & WARNING INDICATORS ===",
+    "//": "High contrast problem indicators optimized for dark backgrounds",
+    "editorError.foreground": "#ff5252",
+    "editorWarning.foreground": "#ffb300",
+    "editorBracketMatch.background": "#4a7c59",
+    "editorBracketMatch.border": "#7cc142",
+    "editor.selectionBackground": "#4a4a7a60",
+    "editor.selectionHighlightBackground": "#4a4a7a30",
+    "editor.findMatchBackground": "#ffb30040",
+    "editor.findMatchHighlightBackground": "#ffb30020",
+    "editor.wordHighlightBackground": "#7cc14220",
+    "editor.wordHighlightStrongBackground": "#7cc14230",
+    "debugToolBar.background": "#2d2d2d",
+    "editorRuler.foreground": "#3d3d3d"
+  },
+  
+  "//": "=====================================================",
+  "//": "SYNTAX HIGHLIGHTING - Dark Ghibli magical palette",
+  "//": "Rich purples, vibrant greens, warm oranges, cherry blossoms",
+  "//": "=====================================================",
+  
+  "tokenColors": [
+    {
+      "//": "=== COMMENTS ===",
+      "//": "Soft gray-blue like moonlight whispers",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#7b7b7b",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "//": "=== STRINGS & LITERALS ===",
+      "//": "Vibrant forest green like Totoro's magical world",
+      "scope": "string",
+      "settings": {
+        "foreground": "#81c784"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#ffb300"
+      }
+    },
+    {
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#ff6b35",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "//": "=== KEYWORDS & MODIFIERS ===",
+      "//": "Rich purple like No-Face's mysterious presence",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#ab47bc",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#42a5f5"
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#8d6e63"
+      }
+    },
+    {
+      "//": "=== FUNCTIONS & CLASSES ===",
+      "//": "Bright cyan-blue like magical water spirits",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#26c6da",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#ffb74d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#64b5f6"
+      }
+    },
+    {
+      "//": "=== VARIABLES & SUPPORT ===",
+      "//": "Clean white for variables with good contrast",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#e8e8e8"
+      }
+    },
+    {
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#7cc142"
+      }
+    },
+    {
+      "scope": "support.class",
+      "settings": {
+        "foreground": "#ba68c8"
+      }
+    },
+    {
+      "//": "=== MARKUP (Markdown, HTML) ===",
+      "//": "Cherry blossom pink and warm colors for markup",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#ff9cff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ffb74d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#f48fb1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.underline",
+      "settings": {
+        "foreground": "#4dd0e1",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#7b7b7b",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "//": "=== IMPORTS & HTML TAGS ===",
+      "//": "Calcifer-inspired warm orange for imports",
+      "scope": "meta.import, meta.export",
+      "settings": {
+        "foreground": "#ff7043"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "#8d6e63"
+      }
+    },
+    {
+      "scope": "meta.tag, entity.name.tag",
+      "settings": {
+        "foreground": "#ab47bc"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#42a5f5"
+      }
+    },
+    {
+      "//": "=== SPECIAL GHIBLI TOUCHES ===",
+      "//": "Magical accents with cherry blossom and mystical colors",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#f8bbd9"
+      }
+    },
+    {
+      "scope": "meta.brace, punctuation.definition.block",
+      "settings": {
+        "foreground": "#4dd0e1"
+      }
+    },
+    {
+      "scope": "punctuation.separator, punctuation.terminator",
+      "settings": {
+        "foreground": "#ffb300"
+      }
+    },
+    {
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#ff7043",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "//": "=== ADDITIONAL DARK THEME ENHANCEMENTS ===",
+      "//": "Better contrast for specific elements in dark mode",
+      "scope": "meta.preprocessor",
+      "settings": {
+        "foreground": "#ba68c8"
+      }
+    },
+    {
+      "scope": "entity.name.namespace",
+      "settings": {
+        "foreground": "#81c784"
+      }
+    },
+    {
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#ffcc80"
+      }
+    },
+    {
+      "scope": "meta.function-call",
+      "settings": {
+        "foreground": "#26c6da"
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#ff9cff"
+      }
+    }
+  ]
+}
