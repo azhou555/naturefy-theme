@@ -1,0 +1,63 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Koi Pond Light",
+  "author": "Theme Converter",
+  "themes": [
+    {
+      "name": "Koi Pond Light",
+      "appearance": "light",
+      "style": {
+        "background": "#fcfaf4",
+        "foreground": "#2c3e34",
+        "editor.background": "#fcfaf4",
+        "editor.foreground": "#2c3e34",
+        "editor.gutter.background": "#fcfaf4",
+        "editor.line_number": "#9b9580",
+        "editor.active_line_number": "#2E7D32",
+        "editor.wrap_guide": "#5a5a5a",
+        "editor.active_wrap_guide": "#5a5a5a",
+        "panel.background": "#f7f3e9",
+        "sidebar.background": "#f7f3e9",
+        "tab_bar.background": "#f7f3e9",
+        "tab.inactive_background": "#f7f3e9",
+        "tab.active_background": "#fcfaf4",
+        "status_bar.background": "#f7f3e9",
+        "title_bar.background": "#f7f3e9",
+        "toolbar.background": "#f7f3e9",
+        "syntax": {
+          "comment": {
+            "color": "#6b6b52",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "#2E7D32"
+          },
+          "number": {
+            "color": "#FF8F00"
+          },
+          "constant": {
+            "color": "#2c3e34"
+          },
+          "keyword": {
+            "color": "#2980B9"
+          },
+          "type": {
+            "color": "#5DADE2"
+          },
+          "function": {
+            "color": "#43A047"
+          },
+          "variable": {
+            "color": "#2c3e34"
+          },
+          "punctuation": {
+            "color": "#2E7D32"
+          },
+          "tag": {
+            "color": "#388E3C"
+          }
+        }
+      }
+    }
+  ]
+}

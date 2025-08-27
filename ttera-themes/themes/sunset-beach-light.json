@@ -1,0 +1,63 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Sunset Beach Light",
+  "author": "Theme Converter",
+  "themes": [
+    {
+      "name": "Sunset Beach Light",
+      "appearance": "light",
+      "style": {
+        "background": "#fefcf7",
+        "foreground": "#2c3e50",
+        "editor.background": "#fefcf7",
+        "editor.foreground": "#2c3e50",
+        "editor.gutter.background": "#fefcf7",
+        "editor.line_number": "#8694a6",
+        "editor.active_line_number": "#E55039",
+        "editor.wrap_guide": "#5a5a5a",
+        "editor.active_wrap_guide": "#5a5a5a",
+        "panel.background": "#f5f1e8",
+        "sidebar.background": "#f8f4eb",
+        "tab_bar.background": "#f5f1e8",
+        "tab.inactive_background": "#f5f1e8",
+        "tab.active_background": "#fefcf7",
+        "status_bar.background": "#f5f1e8",
+        "title_bar.background": "#f5f1e8",
+        "toolbar.background": "#f5f1e8",
+        "syntax": {
+          "comment": {
+            "color": "#8694a6",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "#17A2B8"
+          },
+          "number": {
+            "color": "#D68910"
+          },
+          "constant": {
+            "color": "#2c3e50"
+          },
+          "keyword": {
+            "color": "#B53471"
+          },
+          "type": {
+            "color": "#2E86AB"
+          },
+          "function": {
+            "color": "#20B2AA"
+          },
+          "variable": {
+            "color": "#2c3e50"
+          },
+          "punctuation": {
+            "color": "#138496"
+          },
+          "tag": {
+            "color": "#17A2B8"
+          }
+        }
+      }
+    }
+  ]
+}

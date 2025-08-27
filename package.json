@@ -2,7 +2,7 @@
   "name": "ttera-themes",
   "displayName": "Ttera Themes",
   "description": "Themes inspired by nature and media aesthetics. Personally curated and designed (with the exception of Dracula).",
-  "version": "2.0.3",
+  "version": "2.0.6",
   "publisher": "sserafy",
   "engines": {
     "vscode": "^1.103.0"

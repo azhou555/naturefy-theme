@@ -1,0 +1,67 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Ukiyo-e Wood Workshop",
+  "author": "Theme Converter",
+  "themes": [
+    {
+      "name": "Ukiyo-e Wood Workshop",
+      "appearance": "light",
+      "style": {
+        "background": "#f7f2e8",
+        "foreground": "#2f1b14",
+        "editor.background": "#f7f2e8",
+        "editor.foreground": "#2f1b14",
+        "editor.gutter.background": "#f7f2e8",
+        "editor.line_number": "#8b7765",
+        "editor.active_line_number": "#b8860b",
+        "editor.wrap_guide": "#5a5a5a",
+        "editor.active_wrap_guide": "#5a5a5a",
+        "panel.background": "#f0e6d6",
+        "sidebar.background": "#f0e6d6",
+        "tab_bar.background": "#f0e6d6",
+        "tab.inactive_background": "#f0e6d6",
+        "tab.active_background": "#f7f2e8",
+        "status_bar.background": "#f0e6d6",
+        "title_bar.background": "#f0e6d6",
+        "toolbar.background": "#f0e6d6",
+        "syntax": {
+          "comment": {
+            "color": "#8b7765",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "#daa520"
+          },
+          "number": {
+            "color": "#f0e68c"
+          },
+          "constant": {
+            "color": "#2f1b14"
+          },
+          "keyword": {
+            "color": "#b8860b",
+            "font_style": "bold"
+          },
+          "type": {
+            "color": "#a0522d"
+          },
+          "function": {
+            "color": "#8fbc8f"
+          },
+          "variable": {
+            "color": "#8b7765"
+          },
+          "punctuation": {
+            "color": "#a0522d"
+          },
+          "tag": {
+            "color": "#8fbc8f"
+          },
+          "attribute": {
+            "color": "#daa520"
+          }
+        }
+      }
+    }
+  ]
+}
